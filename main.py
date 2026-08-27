@@ -6,8 +6,8 @@ from routes.destination import router as destination
 connect_database()
 
 app=FastAPI(
-    title="Tour & Travel Services API",
-    version="1.0.0",
+    title="Tour & Travel Services API Latest",
+    version="1.1.0",
 )
 
 app.include_router(auth_router)
